@@ -1,0 +1,18 @@
+---
+
+user: 'admin'
+password: 'cisco'
+
+switch1:
+  ip: '192.168.160.91'
+  name: 'lf02-04a'
+  interfaces:
+    - '1/49'
+    - '1/50'
+
+switch2:
+  ip: '192.168.160.92'
+  name: 'lf02-04b'
+  interfaces:
+    - '1/49'
+    - '1/50'

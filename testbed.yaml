@@ -1,0 +1,29 @@
+testbed:
+  name: NXOS_Testbed
+  credentials:
+    default:
+      username: admin
+      password: cisco
+devices:
+  ss01-01a:
+    alias: ss01-01a        
+    type: nxos
+    os: nxos
+    platform: n9k
+    connections:
+      defaults:
+        class: 'unicon.Unicon'
+      ssh:
+        protocol: ssh
+        ip: "192.168.160.78"
+  ss01-01b:
+    alias: ss01-01b
+    type: nxos
+    os: nxos
+    platform: n9k
+    connections:
+      defaults:
+        class: 'unicon.Unicon'
+      ssh:
+        protocol: ssh
+        ip: "192.168.160.79"
